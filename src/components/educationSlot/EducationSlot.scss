@@ -1,0 +1,58 @@
+@import "../../_globalColor";
+
+.education-slot {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $lightBackground2;
+    margin-bottom: 2rem;
+}
+
+.education-slot-dark {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $darkBackground;
+    margin-bottom: 2rem;
+}
+
+.timeframe {
+    width: 20%;
+    padding-right: 1rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.school {
+    margin-top: .5rem;
+    margin-bottom: 12px;
+    font-size: 1.15rem;
+    width: 80%
+}
+
+.school-info {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.dark-mode-text {
+    color: $textColorDark !important;
+  }
+
+.bullet-points {
+    margin-bottom: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chipset {
+    display:flex;
+    gap: 12px;
+}
+
+.chip {
+    margin-right: .5rem;
+}

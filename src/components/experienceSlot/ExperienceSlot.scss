@@ -1,0 +1,58 @@
+@import "../../_globalColor";
+
+.experience-slot {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $lightBackground2;
+    margin-bottom: 2rem;
+}
+
+.experience-slot-dark {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $darkBackground;
+    margin-bottom: 2rem;
+}
+
+.date-range {
+    width: 20%;
+    padding-right: 2rem;
+}
+
+.role {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.company {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-size: 1.15rem;
+}
+
+.job-info {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 80%
+}
+
+.dark-mode-text {
+    color: $textColorDark !important;
+  }
+
+.bullet-points {
+    margin-bottom: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chipset {
+    display:flex;
+    gap: 12px;
+}
+
+.chip {
+    margin-right: .5rem;
+}

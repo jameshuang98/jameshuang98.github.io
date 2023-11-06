@@ -1,0 +1,56 @@
+@import "../../_globalColor";
+
+.article-container {
+  border-radius: 10px;
+  color: $blogCardContainerColor;
+  background-color: $lightBackground1;
+  box-shadow: 0 0 36px $lightBoxShadow;
+  cursor: pointer;
+  height: 200px;
+}
+
+.article-title {
+  color: $blogCardTitleColor;
+  font-size: 1.375rem;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 32px 20px 14px 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.article-description {
+  font-size: 1.063rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: $cardSubtitle;
+  padding: 0px 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin: 0px;
+}
+
+.article-card {
+  display: block;
+  position: relative;
+  background-color: transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.article-card-dark {
+  border: 1px solid $lightBackground1;
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .article-title {
+    font-size: 1.125rem;
+  }
+}

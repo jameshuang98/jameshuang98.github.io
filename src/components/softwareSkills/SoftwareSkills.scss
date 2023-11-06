@@ -1,0 +1,32 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style: none;
+  font-size: 3.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  width: 70px;
+}
+
+.software-skill-inline>i {
+  color: $subTitle;
+}
+
+.software-skill-inline>p {
+  color: $subTitle;
+  font-size: 10px;
+}
+
+.svg {
+  height: 3.5rem;
+}
