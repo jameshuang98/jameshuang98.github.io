@@ -35,3 +35,9 @@
     align-self: flex-start;
     margin-top: auto !important;
 }
+
+@media (max-width: 48em) {
+    .project-container>img {
+        display: none;
+    }
+}
