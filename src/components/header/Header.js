@@ -29,6 +29,7 @@ function Header() {
         <a href="/" className="logo">
           <img src={logo} alt="personal brand logo" className="personal-logo"></img>
         </a>
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -37,6 +38,7 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
+
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewExperience && (
             <li>
