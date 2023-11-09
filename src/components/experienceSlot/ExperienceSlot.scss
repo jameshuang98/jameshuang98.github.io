@@ -41,7 +41,7 @@
 
 .dark-mode-text {
     color: $textColorDark !important;
-  }
+}
 
 .bullet-points {
     margin-bottom: .8rem;
@@ -49,7 +49,8 @@
 }
 
 .chipset {
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     gap: 12px;
 }
 

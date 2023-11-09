@@ -18,7 +18,7 @@ function ExperienceSlot({ slotInfo, isDark }) {
 
     const TechStackChips = ({ technologies, isDark }) => {
         return technologies ? technologies.map((tech, i) => (
-            <Chip label={tech} key={i} color={isDark ? "primary" : "default"} classes={"chip"}/>
+            <Chip label={tech} key={i} color={isDark ? "primary" : "default"} classes={"chip"} />
         ))
             : null;
     };
