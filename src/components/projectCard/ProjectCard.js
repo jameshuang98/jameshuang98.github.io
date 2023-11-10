@@ -9,16 +9,16 @@ export default function ProjectCard({ projectInfo, isDark }) {
 
 
     return (
-        <Paper elevation={2} className="project-container">
+        <Paper elevation={2} className={isDark ? "project-container-dark": "project-container" }>
             <img src={projectInfo.image} alt={projectInfo.projectName} className="image"/>
             <div className="info-section">
-                <div className="name">
+                <div className={isDark ? "name text-dark" : "name"}>
                     {projectInfo.projectName}
                 </div>
-                <div className="description">
+                <div className={isDark ? "description-dark" : "description"}>
                     Skills used: {projectInfo.techStack.join(", ")}
                 </div>
-                <div className="description">
+                <div className={isDark ? "description-dark" : "description"}>
                     {projectInfo.projectDesc}
                 </div>
                 <Button variant="contained" size="small" className="button" href={projectInfo.url} target="_blank">View Code</Button>
