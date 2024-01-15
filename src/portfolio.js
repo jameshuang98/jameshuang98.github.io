@@ -21,7 +21,7 @@ const greeting = {
   username: "James Huang",
   title: "Hi all! I'm James",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with experience building Web and Mobile apps with JavaScript, Reactjs, Nodejs, React Native, and other modern libraries and frameworks."
+    "A passionate Full Stack Software Developer with experience building Web and Mobile apps with JavaScript, React.js, Node.js, React Native, and other modern libraries and frameworks."
   ),
   resumeLink:
     "https://resume.creddle.io/resume/4vptt5xpvfn", // Set to empty to hide the button
@@ -146,26 +146,6 @@ const workExperiences = {
         "Collaborated with a team of developers to create a new version of the company's legacy intranet product, designed to offer customers a modern replacement for their outdated internal communications platform.",
         "Orchestrated the seamless integration of two separate applications through RESTful APIs and a modern React Frontend, enriched with Material UI components, leading to a 20% increase in adoption rates.",
         "Successfully orchestrated the migration of a complex microservice backend infrastructure to an upgraded .NET version, resulting in substantial enhancements to application stability and security."
-      ],
-      techStack: [
-        "C#",
-        "Blazor",
-        "Microsoft SQL Server",
-        "Azure Pipelines",
-        "React.js",
-        "Docker",
-        "Kubernetes"
-      ]
-    },
-    {
-      role: "Junior Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/logos/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBulletPoints: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       ],
       techStack: [
         "C#",
