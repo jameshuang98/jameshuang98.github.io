@@ -137,14 +137,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Junior Software Engineer",
+      role: "Software Engineer",
       company: "Intranet Connections",
       companylogo: require("./assets/images/logos/facebookLogo.png"),
       date: "April 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBulletPoints: [
-        "Collaborated with a team of developers to create a new version of the company's legacy intranet product, designed to offer customers a modern replacement for their outdated internal communications platform.",
-        "Orchestrated the seamless integration of two separate applications through RESTful APIs and a modern React Frontend, enriched with Material UI components, leading to a 20% increase in adoption rates.",
+        "Collaborated with a team of developers to create a modern internal communications platform using Blazor and C#, designed to replace the outdated intranet of over 400 customers",
+        "Orchestrated the seamless integration of two separate applications through RESTful APIs and a React front-end, enriched with Material UI components, leading to a 20% increase in adoption rates",
+        "Developed Node.js scripts to extract data from the MongoDB Atlus Database of a SaaS application, facilitating the generation of monthly reports by aggregating data from more than 50 tenants",
         "Successfully orchestrated the migration of a complex microservice backend infrastructure to an upgraded .NET version, resulting in substantial enhancements to application stability and security."
       ],
       techStack: [
