@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.787f587e.css",
-    "main.js": "/static/js/main.1131f7b5.js",
+    "main.js": "/static/js/main.c70bba93.js",
     "static/media/CatStrat_phone.png": "/static/media/CatStrat_phone.00b3cf35efa826d7a9ed.png",
     "static/media/Nile_home.png": "/static/media/Nile_home.d43d607a1c5d10dc6979.png",
     "static/media/PharmaPal.png": "/static/media/PharmaPal.8e7d578181af0175fd30.png",
@@ -24,10 +24,10 @@
     "static/media/firebase.png": "/static/media/firebase.6b405206252ff65ef584.png",
     "index.html": "/index.html",
     "main.787f587e.css.map": "/static/css/main.787f587e.css.map",
-    "main.1131f7b5.js.map": "/static/js/main.1131f7b5.js.map"
+    "main.c70bba93.js.map": "/static/js/main.c70bba93.js.map"
   },
   "entrypoints": [
     "static/css/main.787f587e.css",
-    "static/js/main.1131f7b5.js"
+    "static/js/main.c70bba93.js"
   ]
 }
