@@ -151,8 +151,10 @@ const workExperiences = {
         "C#",
         "Blazor",
         "Microsoft SQL Server",
+        "Entity Framework",
         "Azure Pipelines",
         "React.js",
+        "TypeScript",
         "Docker",
         "Kubernetes"
       ]
